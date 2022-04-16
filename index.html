@@ -7,12 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="main">
         <div class="side">
-            <img src="https://cutt.ly/EFXz0ZE" height="600px" width="400px" alt="">
+            <img src="https://cutt.ly/2FXOdVL" height="600px" width="400px" alt="">
+            <div class="logo">
+                <img src="/images/logo.png" height="100px" width="100px" alt="">
+                <p class="logo-text">PupTest</p>
+            </div>
         </div>
         <div class="info">
             <p>This is not a real online service! You know you need something like this in your
@@ -21,26 +27,31 @@
             </p>
             <p>You know you want to.</p>
             <form action="" method="get">
-
                 <div class="input">
                     <label for="first_name">First Name</label>
                     <input type="text" name="first_name" id="first_name" required>
+                </div>
+                <div class="input">
                     <label for="last_name">Last Name</label>
                     <input type="text" name="last_name" id="last_name" required>
                 </div>
                 <div class="input">
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" required>
+                </div>
+                <div class="input">
                     <label for="phone_number">Phone Number</label>
                     <input type="phone" name="phone_number" id="phone_number" required>
                 </div>
                 <div class="input">
                     <label for="password">Password</label>
                     <input type="password" name="password" id="password" required>
+                </div>
+                <div class="input">
                     <label for="confirm_password">Confirm Password</label>
                     <input type="confirm_password" name="confirm_password" id="confirm_password" required>
                 </div>
-                <button type="submit">Submit</button>
+                <button class="submit" type="submit">Submit</button>
             </form>
         </div>
     </div>
